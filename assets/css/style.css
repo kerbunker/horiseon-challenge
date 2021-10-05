@@ -1,13 +1,25 @@
+/* Styles Used Across Multiple Sections */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
+/* End General Stles */
 
+/* Header Style Section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +52,9 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* End Header Section */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Hero Section */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +63,29 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* End Hero Section */
+
+.resource {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.resource img {
+    max-height: 200px;
+}
+
+.resource h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+
 
 .float-left {
     float: left;
@@ -102,23 +130,6 @@ p {
     max-width: 150px;
 }
 
-.resource {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.resource img {
-    max-height: 200px;
-}
-
-.resource h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;
