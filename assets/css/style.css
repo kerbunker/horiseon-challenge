@@ -17,7 +17,7 @@ p {
 body {
     background-color: #d9dcd6;
 }
-/* End General Stles */
+/* End General Styles */
 
 /* Header Style Section */
 header {
@@ -65,7 +65,13 @@ header nav ul li {
 }
 /* End Hero Section */
 
-.resource {
+/* Content Styles */
+.contents {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,18 +80,14 @@ header nav ul li {
     color: #ffffff;
 }
 
-.resource img {
+.content img {
     max-height: 200px;
 }
 
-.resource h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-
-
-
 
 .float-left {
     float: left;
@@ -96,13 +98,9 @@ header nav ul li {
     float: right;
     margin-left: 25px;
 }
+/* End Content Styles */
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Benefits Styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,9 +117,10 @@ header nav ul li {
     color: #ffffff;
 }
 
-.benefit h3 {
+.benefit h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 19px;
 }
 
 .benefit img {
@@ -129,8 +128,9 @@ header nav ul li {
     margin: 10px auto;
     max-width: 150px;
 }
+/* End Benefits Styles */
 
-
+/* Footer Styles */
 footer {
     padding: 30px;
     clear: both;
@@ -141,3 +141,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* End Footer Styles */
