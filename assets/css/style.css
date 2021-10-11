@@ -117,9 +117,10 @@ header nav ul li {
     color: #ffffff;
 }
 
-.benefit h3 {
+.benefit h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 18px;
 }
 
 .benefit img {
