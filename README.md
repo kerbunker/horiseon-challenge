@@ -1,9 +1,11 @@
 # Week 1 Challenge
+
 ## Horiseon Social Services Refactor
 
-
 This week I helped Horiseon Social Services to clean up the code for their website and make it more in line with accessibility standards.
+
 ### Changes made to pre-existing code
+
 The title of the site was previously "website"
 * Title has now been updated to reflect the content of the site.
 
@@ -27,7 +29,7 @@ The code for the website was not very reader friendly
 * Some heading tags were changed to better align with the contents of the page. The benefit section all had h3 tags despite not being a child of an element with an h2 tag. These h3 tags were changed to better align with the content and flow of the page.
 
 ### Links
-* Github repository: 
-* Deployed website:
+* Github repository: [kerbunker/horiseon-challenge](https://github.com/kerbunker/horiseon-challenge)
+* Deployed website: [kerbunker.github.io/horiseon-challenge/](https://kerbunker.github.io/horiseon-challenge/)
 
 ![screenshot](/assets/images/page-screenshot.png)
